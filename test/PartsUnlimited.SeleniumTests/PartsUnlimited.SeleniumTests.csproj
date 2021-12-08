@@ -80,7 +80,7 @@
     <Compile Include="Script\LoginPage.cs" />
     <Compile Include="Script\ProductCartPage.cs" />
   </ItemGroup>
-  <ItemGroup>
+  <!--<ItemGroup>
     <AdditionalFiles Include="..\..\PartsUnlimited.DepValidation\DependencyValidation1.layerdiagram">
       <Link>DependencyValidation1.layerdiagram</Link>
       <Visible>False</Visible>
@@ -89,7 +89,7 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="Excel_Files\Login_Credentials.xlsx" />
     <None Include="packages.config" />
-  </ItemGroup>
+  </ItemGroup>-->
   <ItemGroup>
     <Content Include="EPPlus.dll" />
   </ItemGroup>
@@ -99,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\PartsUnlimited.DepValidation\DependencyValidation1.layerdiagram">
+      <Link>DependencyValidation1.layerdiagram</Link>
+      <Visible>False</Visible>
+    </AdditionalFiles>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
